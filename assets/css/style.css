@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    font-family:'Oswald', sans-serif;
+}
+
+.HOME{
+    width: 100%;
+    height: 84.2vh;
+    background-size: fixed;
+    display: flex;
+}
+
+p{
+    color: aliceblue;
+    font-size: medium;
+}
+
+a{
+    font-size:large
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1.0rem;
+    font-weight: 800;
+}
+
+h6{
+    color: antiquewhite;
+}
+
+button
+{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover
+{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+    color: black;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#new .one img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#new .one:nth-child(1) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(2) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(3) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar{
+    font-size: 20px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .nav-home
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald';
+    display: flex;
+    margin-right: 100px;
+}
+
+.navbar .nav-item
+{
+    font-weight: bold;
+    margin-left: 12px;
+    padding-top: 4.5px;
+}
+
+.nav-buttons
+{
+    margin-left: 50%;
+}
+
+.navbar .nav-btn
+{
+    font-size: 2rem;
+    padding: 0 7px;
+    padding-top: 2.5%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+}
+
+.navbar .nav-btn:hover
+{
+    color: black;
+}
+
+.product
+{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img
+{
+    transition: 0.3s all;
+}
+
+#banner
+{
+    background-image: url("https://res.cloudinary.com/dx8gt3nnu/image/upload/v1668857792/banners/Mobile_banner_-_lost_found_rh9bms.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h1
+{
+    color: antiquewhite;
+}
+
+.small-img-group
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col
+{
+        flex-basis: 25%;
+        cursor: pointer;
+}
+
+.single input:focus
+{
+    outline: none;
+}
+
+.single input
+{
+    width: 50px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.single .buy-btn:hover
+{
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.5s ease;
+}
+
+td:last-child
+{
+    text-align: right;
+}
+
+td:last-child
+{
+    text-align: right;
+}
+
+.checkout-container
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-btn
+{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#login-form
+{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#login-form #login-btn
+{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#login-form #register-url
+{
+    color: crimson;
+}
+
+#register-form
+{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn
+{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#register-form #login-url
+{
+    color:crimson;
+}
+
+#account-form
+{
+    width: 50px;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.account-info #order-btn,#logout-btn
+{
+    color: crimson;
+
+
+}
+
+#account-form
+{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#account-form input{
+    width: 80%;
+    margin: 5px auto;
+}
+
+
+#checkout-form .checkout-small-element
+{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+#checkout-form .checkout-large-element
+{
+    width: 96.5%; 
+}
+
+#checkout-form .checkout-btn-container
+{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px; 
+}
+
+#checkout-form #checkout-btn
+{
+    background-color: black;
+    color: antiquewhite;
+}
